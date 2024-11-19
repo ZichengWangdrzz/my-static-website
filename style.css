@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@font-face {
+    font-family: 'CustomFont'; /* You can name this whatever you like */
+    src: url('assets/fonts/s8514fix.ttf') format('truetype'); /* Correct path to the font */
+    font-weight: normal; /* Optional: Define font weight */
+    font-style: normal; /* Optional: Define font style */
+}
+
+@font-face {
+    font-family: 'CustomFont2'; /* You can name this whatever you like */
+    src: url('assets/fonts/BigBlue TerminalPlus Nerd Font Complete.TTF') format('truetype'); /* Correct path to the font */
+    font-weight: normal; /* Optional: Define font weight */
+    font-style: normal; /* Optional: Define font style */
+}
 
 *{
     margin: 0;
@@ -7,8 +20,10 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CustomFont', sans-serif;
 }
+
+
 
 html{
     font-size: 62.5%;
